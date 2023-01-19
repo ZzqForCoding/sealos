@@ -125,8 +125,7 @@ Don't be shocked by the following:
 ```shell script
 sealos run labring/helm:v3.8.2 # install helm
 sealos run labring/openebs:v1.9.0 # install openebs
-sealos run labring/minio-operator:v4.4.16 labring/ingress-nginx:4.1.0 \
-   labring/mysql-operator:8.0.23-14.1 labring/redis-operator:3.1.4 # oneliner
+sealos run labring/minio-operator:v4.4.16 labring/ingress-nginx:4.1.0 labring/mysql-operator:8.0.23-14.1 labring/redis-operator:3.1.4 # oneliner
 ```
 
 And now everything is ready.
